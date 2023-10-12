@@ -135,7 +135,9 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: rgb(151, 151, 255);
+    background-image: url(me.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-top: 5px;
 }
 #footerright{
@@ -152,4 +154,75 @@
 #love{
     margin-top: 10px;
     text-align: end;
+}
+@media (max-width: 600px){
+    #bg{
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    #bgtext{
+        font-size: 25px;
+    }
+    #bgtextsmall{
+        font-size: 15px;
+    }
+    #booksimgs{
+        justify-content: center;
+    }
+    #bookshead{
+        text-align: center;
+    }
+    #buy{
+        padding-bottom: 50px;
+    }
+    .logo img{
+        height: 15px;
+    }
+    .cart img{
+        height: 15px;
+    }
+    .carttext{
+        font-size: 12px;
+    }
+    #header{
+        padding: 7px 2px;
+    }
+    #footercontent{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #footertext{
+        font-size: 15px;
+        text-align: center;
+    }
+    #pic{
+        height: 110px;
+        width: 110px;
+    }
+    #footer{
+        height: 160px;
+        margin-top: 100px;
+    }
+    #contact{
+        text-align: end;
+    }
+    #name{
+        font-size: 15px;
+    }
+    #love, #contact{
+        font-size: 10px;
+    }
+    #books{
+        margin-top: 55px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 55px;
+    }
+    #booktitle, #author{
+        text-align: center;
+    }
+    #pic{
+        margin-top: 15px;
+    }
 }
